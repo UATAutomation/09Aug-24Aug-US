@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-04T17:14:55 IST" name="Suite" finished-at="2021-10-04T17:16:14 IST" duration-ms="78670">
+    <groups>
+      <group name="regration">
+        <method signature="EndToEndTest.CreateStudentNotes()[pri:1, instance:com.checkhintstudentnotessection.endtoendtest.EndToEndTest@41fecb8b]" name="CreateStudentNotes" class="com.checkhintstudentnotessection.endtoendtest.EndToEndTest"/>
+      </group> <!-- regration -->
+      <group name="smoke">
+        <method signature="EndToEndTest.login()[pri:0, instance:com.checkhintstudentnotessection.endtoendtest.EndToEndTest@41fecb8b]" name="login" class="com.checkhintstudentnotessection.endtoendtest.EndToEndTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-10-04T17:14:55 IST" name="Test" finished-at="2021-10-04T17:16:14 IST" duration-ms="78670">
+      <class name="com.checkhintstudentnotessection.endtoendtest.EndToEndTest">
+        <test-method is-config="true" signature="intibase()[pri:0, instance:com.checkhintstudentnotessection.endtoendtest.EndToEndTest@41fecb8b]" started-at="2021-10-04T17:14:55 IST" name="intibase" finished-at="2021-10-04T17:15:10 IST" duration-ms="14601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intibase -->
+        <test-method signature="login()[pri:0, instance:com.checkhintstudentnotessection.endtoendtest.EndToEndTest@41fecb8b]" started-at="2021-10-04T17:15:10 IST" name="login" finished-at="2021-10-04T17:15:12 IST" duration-ms="2145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="CreateStudentNotes()[pri:1, instance:com.checkhintstudentnotessection.endtoendtest.EndToEndTest@41fecb8b]" started-at="2021-10-04T17:15:12 IST" name="CreateStudentNotes" finished-at="2021-10-04T17:16:14 IST" duration-ms="61866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateStudentNotes -->
+      </class> <!-- com.checkhintstudentnotessection.endtoendtest.EndToEndTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
