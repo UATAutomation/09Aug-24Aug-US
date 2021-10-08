@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-04T16:52:56 IST" name="Suite" finished-at="2021-10-04T16:53:43 IST" duration-ms="47787">
+    <groups>
+      <group name="regration">
+        <method signature="EndToEndTest.CheckInstitutionPartnerTypeColumn()[pri:1, instance:com.institutionpartnertypecolumn.endtoendtest.EndToEndTest@696da30b]" name="CheckInstitutionPartnerTypeColumn" class="com.institutionpartnertypecolumn.endtoendtest.EndToEndTest"/>
+      </group> <!-- regration -->
+      <group name="smoke">
+        <method signature="EndToEndTest.login()[pri:0, instance:com.institutionpartnertypecolumn.endtoendtest.EndToEndTest@696da30b]" name="login" class="com.institutionpartnertypecolumn.endtoendtest.EndToEndTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-10-04T16:52:56 IST" name="Test" finished-at="2021-10-04T16:53:43 IST" duration-ms="47787">
+      <class name="com.institutionpartnertypecolumn.endtoendtest.EndToEndTest">
+        <test-method is-config="true" signature="intibase()[pri:0, instance:com.institutionpartnertypecolumn.endtoendtest.EndToEndTest@696da30b]" started-at="2021-10-04T16:52:56 IST" name="intibase" finished-at="2021-10-04T16:53:07 IST" duration-ms="11501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intibase -->
+        <test-method signature="login()[pri:0, instance:com.institutionpartnertypecolumn.endtoendtest.EndToEndTest@696da30b]" started-at="2021-10-04T16:53:07 IST" name="login" finished-at="2021-10-04T16:53:08 IST" duration-ms="576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="CheckInstitutionPartnerTypeColumn()[pri:1, instance:com.institutionpartnertypecolumn.endtoendtest.EndToEndTest@696da30b]" started-at="2021-10-04T16:53:08 IST" name="CheckInstitutionPartnerTypeColumn" finished-at="2021-10-04T16:53:43 IST" duration-ms="35643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckInstitutionPartnerTypeColumn -->
+      </class> <!-- com.institutionpartnertypecolumn.endtoendtest.EndToEndTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
