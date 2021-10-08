@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-04T16:07:15 IST" name="Default suite" finished-at="2021-10-04T16:08:53 IST" duration-ms="97783">
+    <groups>
+      <group name="sanity">
+        <method signature="EndToEnd.All()[pri:1, instance:com.formui.end.EndToEnd@3232a28a]" name="All" class="com.formui.end.EndToEnd"/>
+        <method signature="EndToEnd.log()[pri:0, instance:com.formui.end.EndToEnd@3232a28a]" name="log" class="com.formui.end.EndToEnd"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2021-10-04T16:07:15 IST" name="Default test" finished-at="2021-10-04T16:08:53 IST" duration-ms="97783">
+      <class name="com.formui.end.EndToEnd">
+        <test-method is-config="true" signature="intibase()[pri:0, instance:com.formui.end.EndToEnd@3232a28a]" started-at="2021-10-04T16:07:15 IST" name="intibase" finished-at="2021-10-04T16:07:26 IST" duration-ms="11394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intibase -->
+        <test-method signature="log()[pri:0, instance:com.formui.end.EndToEnd@3232a28a]" started-at="2021-10-04T16:07:26 IST" name="log" finished-at="2021-10-04T16:07:27 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log -->
+        <test-method signature="All()[pri:1, instance:com.formui.end.EndToEnd@3232a28a]" started-at="2021-10-04T16:07:27 IST" name="All" finished-at="2021-10-04T16:08:53 IST" duration-ms="86109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- All -->
+      </class> <!-- com.formui.end.EndToEnd -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
