@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-04T16:47:29 IST" name="Default suite" finished-at="2021-10-04T16:50:26 IST" duration-ms="177295">
+    <groups>
+      <group name="smoke">
+        <method signature="EndToEndTest.SubjectsField()[pri:1, instance:com.instituteanysubject.End.EndToEndTest@169e6180]" name="SubjectsField" class="com.instituteanysubject.End.EndToEndTest"/>
+        <method signature="EndToEndTest.login()[pri:0, instance:com.instituteanysubject.End.EndToEndTest@169e6180]" name="login" class="com.instituteanysubject.End.EndToEndTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-10-04T16:47:29 IST" name="Default test" finished-at="2021-10-04T16:50:26 IST" duration-ms="177295">
+      <class name="com.instituteanysubject.End.EndToEndTest">
+        <test-method is-config="true" signature="intibase()[pri:0, instance:com.instituteanysubject.End.EndToEndTest@169e6180]" started-at="2021-10-04T16:47:29 IST" name="intibase" finished-at="2021-10-04T16:47:35 IST" duration-ms="6628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intibase -->
+        <test-method signature="login()[pri:0, instance:com.instituteanysubject.End.EndToEndTest@169e6180]" started-at="2021-10-04T16:47:36 IST" name="login" finished-at="2021-10-04T16:47:36 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="SubjectsField()[pri:1, instance:com.instituteanysubject.End.EndToEndTest@169e6180]" started-at="2021-10-04T16:47:36 IST" name="SubjectsField" finished-at="2021-10-04T16:50:26 IST" duration-ms="170389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubjectsField -->
+      </class> <!-- com.instituteanysubject.End.EndToEndTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
