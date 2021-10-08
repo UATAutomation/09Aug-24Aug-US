@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-04T16:34:17 IST" name="Suite" finished-at="2021-10-04T16:36:47 IST" duration-ms="150125">
+    <groups>
+      <group name="regration">
+        <method signature="EndToEndTest.CheckedConsollerData()[pri:1, instance:com.editrecruitercheckedconsoller.endtoendtest.EndToEndTest@4e7912d8]" name="CheckedConsollerData" class="com.editrecruitercheckedconsoller.endtoendtest.EndToEndTest"/>
+        <method signature="EndToEndTest.EditCheckedConsollerData()[pri:2, instance:com.editrecruitercheckedconsoller.endtoendtest.EndToEndTest@4e7912d8]" name="EditCheckedConsollerData" class="com.editrecruitercheckedconsoller.endtoendtest.EndToEndTest"/>
+      </group> <!-- regration -->
+      <group name="smoke">
+        <method signature="EndToEndTest.login()[pri:0, instance:com.editrecruitercheckedconsoller.endtoendtest.EndToEndTest@4e7912d8]" name="login" class="com.editrecruitercheckedconsoller.endtoendtest.EndToEndTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-10-04T16:34:17 IST" name="Test" finished-at="2021-10-04T16:36:47 IST" duration-ms="150125">
+      <class name="com.editrecruitercheckedconsoller.endtoendtest.EndToEndTest">
+        <test-method is-config="true" signature="intibase()[pri:0, instance:com.editrecruitercheckedconsoller.endtoendtest.EndToEndTest@4e7912d8]" started-at="2021-10-04T16:34:17 IST" name="intibase" finished-at="2021-10-04T16:34:32 IST" duration-ms="14947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intibase -->
+        <test-method signature="login()[pri:0, instance:com.editrecruitercheckedconsoller.endtoendtest.EndToEndTest@4e7912d8]" started-at="2021-10-04T16:34:32 IST" name="login" finished-at="2021-10-04T16:34:33 IST" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="CheckedConsollerData()[pri:1, instance:com.editrecruitercheckedconsoller.endtoendtest.EndToEndTest@4e7912d8]" started-at="2021-10-04T16:34:33 IST" name="CheckedConsollerData" finished-at="2021-10-04T16:36:12 IST" duration-ms="98641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckedConsollerData -->
+        <test-method signature="EditCheckedConsollerData()[pri:2, instance:com.editrecruitercheckedconsoller.endtoendtest.EndToEndTest@4e7912d8]" started-at="2021-10-04T16:36:12 IST" name="EditCheckedConsollerData" finished-at="2021-10-04T16:36:47 IST" duration-ms="35899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditCheckedConsollerData -->
+      </class> <!-- com.editrecruitercheckedconsoller.endtoendtest.EndToEndTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
