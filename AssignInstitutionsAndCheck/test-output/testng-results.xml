@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-04T17:48:39 IST" name="Suite" finished-at="2021-10-04T17:51:20 IST" duration-ms="161692">
+    <groups>
+      <group name="regration">
+        <method signature="EndToEndTest.AssignAbcodoInstitutionsField()[pri:2, instance:com.assigninstitutionsandcheck.endtoendtest.EndToEndTest@2bfc268b]" name="AssignAbcodoInstitutionsField" class="com.assigninstitutionsandcheck.endtoendtest.EndToEndTest"/>
+        <method signature="EndToEndTest.AssignGMOInstitutionsField()[pri:1, instance:com.assigninstitutionsandcheck.endtoendtest.EndToEndTest@2bfc268b]" name="AssignGMOInstitutionsField" class="com.assigninstitutionsandcheck.endtoendtest.EndToEndTest"/>
+        <method signature="EndToEndTest.CheckPartnertypeColumnField()[pri:3, instance:com.assigninstitutionsandcheck.endtoendtest.EndToEndTest@2bfc268b]" name="CheckPartnertypeColumnField" class="com.assigninstitutionsandcheck.endtoendtest.EndToEndTest"/>
+        <method signature="EndToEndTest.CheckedCheckboxAndDeleteInstitutionsField()[pri:4, instance:com.assigninstitutionsandcheck.endtoendtest.EndToEndTest@2bfc268b]" name="CheckedCheckboxAndDeleteInstitutionsField" class="com.assigninstitutionsandcheck.endtoendtest.EndToEndTest"/>
+      </group> <!-- regration -->
+      <group name="smoke">
+        <method signature="EndToEndTest.login()[pri:0, instance:com.assigninstitutionsandcheck.endtoendtest.EndToEndTest@2bfc268b]" name="login" class="com.assigninstitutionsandcheck.endtoendtest.EndToEndTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-10-04T17:48:39 IST" name="Test" finished-at="2021-10-04T17:51:20 IST" duration-ms="161692">
+      <class name="com.assigninstitutionsandcheck.endtoendtest.EndToEndTest">
+        <test-method is-config="true" signature="intibase()[pri:0, instance:com.assigninstitutionsandcheck.endtoendtest.EndToEndTest@2bfc268b]" started-at="2021-10-04T17:48:39 IST" name="intibase" finished-at="2021-10-04T17:48:49 IST" duration-ms="10526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intibase -->
+        <test-method signature="login()[pri:0, instance:com.assigninstitutionsandcheck.endtoendtest.EndToEndTest@2bfc268b]" started-at="2021-10-04T17:48:49 IST" name="login" finished-at="2021-10-04T17:48:50 IST" duration-ms="453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="AssignGMOInstitutionsField()[pri:1, instance:com.assigninstitutionsandcheck.endtoendtest.EndToEndTest@2bfc268b]" started-at="2021-10-04T17:48:50 IST" name="AssignGMOInstitutionsField" finished-at="2021-10-04T17:49:46 IST" duration-ms="56714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssignGMOInstitutionsField -->
+        <test-method signature="AssignAbcodoInstitutionsField()[pri:2, instance:com.assigninstitutionsandcheck.endtoendtest.EndToEndTest@2bfc268b]" started-at="2021-10-04T17:49:46 IST" name="AssignAbcodoInstitutionsField" finished-at="2021-10-04T17:50:07 IST" duration-ms="21019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssignAbcodoInstitutionsField -->
+        <test-method signature="CheckPartnertypeColumnField()[pri:3, instance:com.assigninstitutionsandcheck.endtoendtest.EndToEndTest@2bfc268b]" started-at="2021-10-04T17:50:07 IST" name="CheckPartnertypeColumnField" finished-at="2021-10-04T17:50:57 IST" duration-ms="49414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckPartnertypeColumnField -->
+        <test-method signature="CheckedCheckboxAndDeleteInstitutionsField()[pri:4, instance:com.assigninstitutionsandcheck.endtoendtest.EndToEndTest@2bfc268b]" started-at="2021-10-04T17:50:57 IST" name="CheckedCheckboxAndDeleteInstitutionsField" finished-at="2021-10-04T17:51:20 IST" duration-ms="23477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckedCheckboxAndDeleteInstitutionsField -->
+      </class> <!-- com.assigninstitutionsandcheck.endtoendtest.EndToEndTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
