@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-04T15:58:30 IST" name="Default suite" finished-at="2021-10-04T15:59:21 IST" duration-ms="51211">
+    <groups>
+      <group name="smoke">
+        <method signature="EndToEnd.AgentColumnDate()[pri:3, instance:com.columngenderdatebirth.End.EndToEnd@71238fc2]" name="AgentColumnDate" class="com.columngenderdatebirth.End.EndToEnd"/>
+        <method signature="EndToEnd.logi()[pri:2, instance:com.columngenderdatebirth.End.EndToEnd@71238fc2]" name="logi" class="com.columngenderdatebirth.End.EndToEnd"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="EndToEnd.ColumnDate()[pri:1, instance:com.columngenderdatebirth.End.EndToEnd@71238fc2]" name="ColumnDate" class="com.columngenderdatebirth.End.EndToEnd"/>
+        <method signature="EndToEnd.loginn()[pri:0, instance:com.columngenderdatebirth.End.EndToEnd@71238fc2]" name="loginn" class="com.columngenderdatebirth.End.EndToEnd"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2021-10-04T15:58:30 IST" name="Default test" finished-at="2021-10-04T15:59:21 IST" duration-ms="51211">
+      <class name="com.columngenderdatebirth.End.EndToEnd">
+        <test-method is-config="true" signature="intibase()[pri:0, instance:com.columngenderdatebirth.End.EndToEnd@71238fc2]" started-at="2021-10-04T15:58:30 IST" name="intibase" finished-at="2021-10-04T15:58:37 IST" duration-ms="7105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intibase -->
+        <test-method signature="loginn()[pri:0, instance:com.columngenderdatebirth.End.EndToEnd@71238fc2]" started-at="2021-10-04T15:58:37 IST" name="loginn" finished-at="2021-10-04T15:58:37 IST" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginn -->
+        <test-method signature="ColumnDate()[pri:1, instance:com.columngenderdatebirth.End.EndToEnd@71238fc2]" started-at="2021-10-04T15:58:37 IST" name="ColumnDate" finished-at="2021-10-04T15:59:05 IST" duration-ms="28008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ColumnDate -->
+        <test-method signature="logi()[pri:2, instance:com.columngenderdatebirth.End.EndToEnd@71238fc2]" started-at="2021-10-04T15:59:05 IST" name="logi" finished-at="2021-10-04T15:59:06 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logi -->
+        <test-method signature="AgentColumnDate()[pri:3, instance:com.columngenderdatebirth.End.EndToEnd@71238fc2]" started-at="2021-10-04T15:59:06 IST" name="AgentColumnDate" finished-at="2021-10-04T15:59:21 IST" duration-ms="15477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AgentColumnDate -->
+      </class> <!-- com.columngenderdatebirth.End.EndToEnd -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
