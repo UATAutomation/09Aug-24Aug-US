@@ -37,8 +37,7 @@ public class FindManagerColumn extends Base
 	WebElement nexttab;
 	@FindBy(xpath = "(//input[@class='dx-texteditor-input'])[1]")
 	WebElement searchmsmid;
-	@FindBy(xpath = "(//td[@aria-label='Column Manager']//span)[2]")
-	WebElement mngcolmn;
+	
 	
 	@FindBy(xpath = "(//span[@class='mat-button-wrapper']//mat-icon)[1]")
 	WebElement additional;
@@ -61,7 +60,8 @@ public class FindManagerColumn extends Base
 	WebElement ADD;
 	@FindBy(xpath = "//button[text()=' Add ']")
 	WebElement submit;
-	
+	@FindBy(xpath = "(//td[@aria-label='Column Manager']//span)[2]")
+	WebElement mngcolmn;
 	@FindBy(xpath = "//input[@aria-label='Search']")
 	WebElement searchmnger;
 	@FindBy(xpath = "//span[text()='OK']")
